@@ -1,6 +1,8 @@
 # Painel de Cryptos
 Painel de monitoramento do preço de crypto moedas
 
+Link para visualizar [aqui](https://share.streamlit.io/nic1611/crypto-painel/main/painel.py)
+
 ## Indice
 * [Instalação](#Instalação)
 * [Execução](#Execução)
