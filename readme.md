@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 # Execução
 
-## Como executar o aplicativo
+## 🚀 Como executar o aplicativo
 
 ```
 streamlit run model.py
