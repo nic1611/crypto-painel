@@ -13,7 +13,7 @@ import streamlit as st
 from datetime import date
 import datetime
 
-st.title('Análise de preço de crypto ativos')
+st.title('Análise de preço de criptoativos')
 
 st.sidebar.header('Escolha as datas')
 
