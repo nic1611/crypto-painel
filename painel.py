@@ -17,8 +17,9 @@ st.title('Análise de preço de criptoativos')
 
 st.sidebar.header('Escolha as datas')
 
-start = st.sidebar.date_input('Data Início', datetime.date(2019,1,1))
-end = st.sidebar.date_input('Data Fim', datetime.date(2022,1,1))
+today = datetime.date.today()
+start = st.sidebar.date_input('Data Início', datetime.date(today.year - 1, today.month, today.day))
+end = st.sidebar.date_input('Data Fim', today)
 
 #bitcoin
 btc = web.DataReader("BTC-USD", 'yahoo', start, end)  # Collects data
